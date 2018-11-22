@@ -8,15 +8,32 @@ Pass: PyConAr2018 / pyconar2018
 Django:
 
 django-admin: script que crea archivos y carpetas
+
 manage.py: script que inicia un servidor web.
+
 settings.py: configuracion del sitio web
+
 urls.py: contiene las regex que seran utilizadas por el urlresolver
+
 python manage.py migrate: crea una base de datos sqlite3
+
 python manage.py runserver: arranca el servidor web (hay que estar parado en la misma carpeta donde esta el archivo manage.py)
+
 python manage.py startapp blog: crea una aplicacion
+
 manage.py makemigrations blog: crea las migraciones de los modelos definidos
+
 python manage.py migrate blog: ejecuta las migraciones
+
 python manage.py createsuperuser: crea un superusuario en la base de datos, user:lucia, pass:lucia1234
+
+
+Quede en: https://argentinaenpython.com/django-girls/tutorial/deploy/
+- Configurar el virtualenv
+
+https://www.pythonanywhere.com/user/lurumbo/webapps/#tab_id_lurumbo_pythonanywhere_com
+https://github.com/lurumbo/my-first-blog
+http://127.0.0.1:8000/admin/blog/post/
 
 
 --------------------------------------------------------------
