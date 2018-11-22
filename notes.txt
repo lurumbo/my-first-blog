@@ -1,0 +1,51 @@
+--------------------------------------------------------------
+carpeta del proyecto: ~/projects/python/django/djangogirls
+iniciar el entorno virtual: source myenv/bin/activate
+Wifi: Sala AB
+Pass: PyConAr2018 / pyconar2018
+--------------------------------------------------------------
+
+Django:
+
+django-admin: script que crea archivos y carpetas
+manage.py: script que inicia un servidor web.
+settings.py: configuracion del sitio web
+urls.py: contiene las regex que seran utilizadas por el urlresolver
+python manage.py migrate: crea una base de datos sqlite3
+python manage.py runserver: arranca el servidor web (hay que estar parado en la misma carpeta donde esta el archivo manage.py)
+python manage.py startapp blog: crea una aplicacion
+manage.py makemigrations blog: crea las migraciones de los modelos definidos
+python manage.py migrate blog: ejecuta las migraciones
+python manage.py createsuperuser: crea un superusuario en la base de datos, user:lucia, pass:lucia1234
+
+
+--------------------------------------------------------------
+
+PyConAr2018
+
+Booleanos: True y False (con la primer letra en mayuscula)
+
+Operadores: and, or
+
+Else if: elif
+
+For: for i in range(1,6):
+- range es una funcion que crea una lista de numeros en serie, incluye el primer valor pero no el ultimo.
+
+Foreach: for name in girls:
+
+Comentarios: #
+
+Length: len('asd')
+
+Funciones: palabra clave "def"
+def hi():
+	print('Hi!')
+	print('How are you?')
+
+Arrays: Listas
+a = [2,3,5]
+
+Arrays Asociativos: Objetos ?
+a = {'name':'lucia'}
+
