@@ -1,6 +1,7 @@
 --------------------------------------------------------------
 carpeta del proyecto: ~/projects/python/django/djangogirls
 iniciar el entorno virtual: source myenv/bin/activate
+iniciar el server: python manage.py runserver
 Wifi: Sala AB
 Pass: PyConAr2018 / pyconar2018
 --------------------------------------------------------------
